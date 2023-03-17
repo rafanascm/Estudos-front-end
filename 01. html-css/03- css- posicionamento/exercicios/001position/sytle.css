@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  display: grid;
+  justify-items: center;
+  margin-top: 60px;
+  gap: 60px; 
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu {
+font-size: 18px; 
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.menu a{
+  color: black;
+  text-decoration: none;
+  background: rgb(255, 255, 255, 0.50);
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+
+p, h1, h2, h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+
+.conteudo {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ max-width: 1000px;
+}
+
+
+.info {
+background: #fff;
+text-align: right;
+font-size: 18px;
+padding: 50px;
+/* esse POSITION foi criado para relacionar o ABSOLUTE */
+position: relative;
+display: grid;
+align-content: center;
+justify-items: end;
+gap: 20px;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #ee2211;
+  /* NÃO preciso mais do display porque ele virou um elemento de GRID */
+  /* display: inline-block; */
+  /* ABSOLUTE não influencia em nada nos outros elementos */
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  
+}
+
+button {
+  font-size: 18px;
+  color: #f7f7f7;
+  background: #ee2211;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+
+h2 {
+  background: #F7F7F7;
+  text-align: right;
+  font-size: 64px;
+  color: #c6c6c6;
+  padding: 15px 40px;
+  /* O self é utilizado para falar apenas com um item especifico ao centro */
+  align-self: center;
+
+}
+
+.vantagens{
+  background: #fff;
+  padding: 40px;
+  
+}
+
+.vantagens-item {
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto,1fr);
+  /* definir 1º o valor de linha e 2º o valor das colunas  */
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-item p {
+  /*colocar conteúdo na segunda coluna*/
+  grid-column: 2;
+}
+
+.fim {
+  width: 100%;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+}

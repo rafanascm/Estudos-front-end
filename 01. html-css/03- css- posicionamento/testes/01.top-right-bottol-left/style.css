@@ -1,0 +1,13 @@
+span {
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  /* espaçamento entre o conteúdo e a borda */
+  padding: 30px;
+  /* espaçamento entre o conteúdo de cima e baixo (20) e direita e esquerda (40) */
+  padding: 20px 40px; 
+  /* espacamento cima, direita, baixo, esquerda */
+  padding: 40px 100px 200px 10px; 
+}

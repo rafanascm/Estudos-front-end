@@ -1,0 +1,12 @@
+h1 {
+  background: #000;
+  /* color: #8844ee; */
+  /* color: rgb(255, 255, 255); */
+  color: rgba(255, 255,255, 1);
+}
+
+a {
+  background: seagreen;
+  color: aliceblue;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 20px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  background: rgb(199, 199, 199, 0.5);
+  color: black;
+  padding: 10px 40px;
+  display: flex;
+}

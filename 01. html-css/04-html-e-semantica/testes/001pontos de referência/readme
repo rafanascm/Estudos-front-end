@@ -1,0 +1,29 @@
+--------------------------- PONTOS DE REFERÊNCIA --------------------------
+
+*LANDMARKS* 
+ São tags que marcam pontos de referência, o efeito visual que elas possuem é similar com os da div. 
+
+ <main> Conteúdo principal</main>
+--> EX: Conteúdo do artigo. Comércio eletrônico: descrição/imagem/preço do produto. 
+
+ <nav> Marca um bloco de navegação</nav>
+--> EX: Geralmente utilizado para navegação primária e secundária do site.
+
+ <article> representa uma região do site que é autoexplicativa (não precisa do restante do site para fazer sentido). Geralmente deve conter um título (h's).</article>
+--> EX: Lista de produtos do site, um artigo, post na rede social e outros.
+
+<section> Agrupar conteúdo, geralmente o conteúdo necessita do seu contexto para ser compreendido</section>
+
+<aside> É utilizada para marcar conteúdo complementar ao principal do site</aside>
+--> EX: Lista de posts mais visitados, informações extras como a descrição de um termo usado no artigo e mais.
+
+<header> Cabeçalho do site (banner)</header>
+--> EX: Marca o Cabeçalho de regiões como titulo de um artigo,data,autor e outras informações. 
+
+PS: Apenas cria uma landmark se não estiver dentro de main, section, article ou aside.
+
+<footer> rodapé do site </footer>
+--> EX: Informações sobre os direitos autorais, quem escreveu os links para documentos relacionados. 
+
+PS: Apenas cria uma landmark se não estiver dentro de main, section, article ou aside.
+

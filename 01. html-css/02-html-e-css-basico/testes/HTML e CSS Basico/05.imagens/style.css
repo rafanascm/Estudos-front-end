@@ -1,0 +1,7 @@
+img {
+  /* Ele permite que a imagem não fique maior do que o container (elemento pai ex bory)  */
+  max-width: 100%;
+  width: 600px;
+  display: block;
+}
+

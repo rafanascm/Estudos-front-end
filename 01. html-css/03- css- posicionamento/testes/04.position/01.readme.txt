@@ -1,0 +1,21 @@
+A intenção do POSITION é remover o elemento do fluxo padrão do documento. 
+
+!IMPORTANTE! O padrão é o valor STATIC. 
+
+*POSITION FIXED* == Fixa o elemento na tela. 
+
+top, right, left, bottom 
+Define o posicionamento dos elementos que não estão no fluxo padrão. 
+
+------------------------------------------------------------------------------------
+
+*POSITION RELATIVE* == O espaço ocupado pelo elemento continuará a ser ocupado, mesmo que o elemento seja movimentado. 
+
+------------------------------------------------------------------------------------
+
+*POSITION ABSOLUTE* == É posicionado conforme o elemento PAI e remove o elemento do fluxo padrão 
+
+------------------------------------------------------------------------------------
+
+*Z-INDEX* == Define a posição no eixo z (profundidade)
+dos elementos que foram posicionados fora do fluxo

@@ -1,0 +1,64 @@
+/* ::before e ::after
+Os pseudo elements ::before e ::after criam elementos HTML com base no seletor. */ 
+
+/* content
+
+Definir um conteúdo para o elemento é essencial para ele existir, mesmo que o conteúdo esteja vazio. */
+
+h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1::after {
+/* O elemento gera uma caixa de elemento de bloco. */
+display: block;
+content: '';
+background-color: blueviolet;
+width: 40px;
+height: 4px;
+}
+
+li {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+li::before {
+  content: '';
+  /* O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo, como se fosse uma única caixa embutida */
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-image: linear-gradient(#caf, #fff);
+  border-radius: 50%;
+  border: 2px solid #caf;
+  margin-right: 10px;
+}
+
+/* ::first-line e ::first-letter 
+
+::first-line
+
+Seleciona a primeira linha do conteúdo.
+
+::first-letter
+
+Seleciona a primeira letra do conteúdo.*/
+
+p{
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p::first-line{
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+p::first-letter {
+  font-size: 1.9rem;
+  margin-right: 5px;
+}

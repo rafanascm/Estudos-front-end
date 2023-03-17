@@ -1,0 +1,12 @@
+-----------------------UNIDADES---------------------
+
+*REM* 
+-> 1 REM = 16px
+Unidade relativa ao tamanho da fonte do elemento raiz html. 
+
+*VH* 
+-> VIEWPORT HEIGTH 
+
+*VW* 
+-> VIEWPORT WIDTH 
+100vh será 100% da altura da tela, independente da quantidade de conteúdo.

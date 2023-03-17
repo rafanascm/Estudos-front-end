@@ -1,0 +1,90 @@
+.grid {
+  /* Torna o elemento um grid container */
+  display: grid;
+  /* define a distancia entre os elementos do grid */
+  gap: 20px ;
+  /* Define o número total de colunas que serão criadas no grid. */
+  /* grid-template-columns: 1fr 1fr ; */
+  /* ou posso usar */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.preco {
+  /* ajustar na coluna e linha desejada  */
+  grid-row: 3;
+  grid-column: 2;
+  /* ou posso tambem definir os 2 ao mesmo tempo  */
+  grid-area: 2/3;
+}
+
+.descricao {
+  grid-column: 1 / 3;
+}
+
+.comprar {
+  grid-column: 1 / 3;
+}
+
+/* estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px ;
+}
+
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+  /*.grid { 
+  definir colunas e linhas dentro do grid  
+  display: grid;
+  definir o total de colunas e o tamanho de cada uma 
+  grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
+  distância entre os elementos do grid (vertical e horizontal)
+  gap: 20px;
+
+   precisa ter espaço sobrando para alinhar
+  justify-content:center;
+  align-content: center;
+
+  .item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+}
+}

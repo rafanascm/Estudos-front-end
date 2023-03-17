@@ -1,0 +1,38 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+div h1 {
+  grid-column: 1/-1;
+}
+
+/* abaixo de 600px */
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+/* Acima */
+@media (min-width: 1000px) {
+  html {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    background-color: lightcoral;
+  }                                                                           
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+  h1 {
+    background-color: lightseagreen;
+  }
+}

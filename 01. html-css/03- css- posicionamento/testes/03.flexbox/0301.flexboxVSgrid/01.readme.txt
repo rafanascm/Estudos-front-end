@@ -1,0 +1,9 @@
+NÃO EXISTE UM MELHOR QUE O OUTRO! SÃO PROPRIEDADES DIFERENTES QUE RESOLVEM PROBLEMAS DIFERENTES. 
+
+GRID: 1º Dá controle em todos os eixos. 
+      2º Sempre pensa em colunas, não funciona sem colunas
+
+
+-------------------------------------------------------------------------------------
+FLEXBOX: 1º Apenas no total de itens por linha 
+        2º Não tem a ideia de colunas, apenas tenta encaixar 

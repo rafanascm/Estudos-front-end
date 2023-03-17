@@ -1,0 +1,24 @@
+div {
+  background: grey;
+  /* Altura */
+  width: 140px; 
+  /* Largura */
+  height: 80px;
+  /* Margem interna */
+  padding: 30px ;
+  /* borda */
+  border: 10px solid #111;
+  /* margem */
+  margin: 30px ;
+}
+
+body {
+  margin: 0 ;
+}
+
+h1 {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border: 1px solid #111 ;
+  margin: 20px;
+}

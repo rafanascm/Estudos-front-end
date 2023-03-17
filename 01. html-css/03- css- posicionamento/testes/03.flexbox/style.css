@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  /* deve quebrar em uma linha ou não?  */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #ededed;
+  padding: 20px;
+  margin: 0px;
+  /* Quero que o elento creça */
+   flex-grow: 1;  
+  /* O espaço distribuido no flex grow precisa ser igual entre os elementos */
+  flex-basis: 0;
+  /* Se o elemento pode ser encolhido ou não */
+  flex-shrink: 1; 
+  /* Atalho para todos os de cima */
+  flex: 1;
+}
