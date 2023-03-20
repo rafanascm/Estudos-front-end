@@ -1,0 +1,70 @@
+# ARRAYS
+
+Bloco de código que pode ser executado e reutilizado. 
+
+Podemos chamar onde e quando precisarmos 
+
+Valores podem ser passados por uma função e a mesma retorna outro valor.
+
+```jsx
+**var videoGames = ["xbox", "ps4", "nitendo","3DS"]
+
+console.log(videoGames)**
+```
+
+### FUNÇÕES DENTRO DE ARRAYS
+
+PUSH
+
+Acrescentar um item ao final da lista 
+
+UNSHIFIT
+
+Acrescenta no começo da lista 
+
+POP
+
+Remover o último 
+
+INDEXOF 
+
+Informa a posição do item
+
+### ARRAYS BIDIMENSIONAIS
+
+São **arrays que precisam de 2 índices para serem localizados** 
+
+```jsx
+variavel = [[], [], []]
+
+//Possivel acessar a array dentro de uma array 
+```
+
+### SPLICE
+
+Usado para localizar posições no meio do array ao invés das pontas 
+
+Substitui o array original 
+
+```jsx
+array.splice(index[, deleteCount[, elemento1 [, ... [, elementoN  ]]])
+```
+
+- Espera um primeiro parâmetro que é um índice do array
+- O segundo é quantidade de elementos que queremos remover a partir deste índice
+- Os próximos são elementos que queremos adicionar no lugar
+- Apenas o primeiro parâmetro é “Obrigatório”
+
+### SLICE
+
+Siginifica “fatiar ou dividir”
+
+Extrai uma parte do array sem alterar o array original 
+
+```jsx
+array.slice([begin[, end]])
+```
+
+- Possui um primeiro parametro que é o índice inicial
+- O segundo parâmetro é o índice final
+- Retorna todos os elementos entre o elemento de índice “begin” e o anterior ao elemento “end”

@@ -20,6 +20,5 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
     }
   }
 
-// Coloque a última fruta da array acima em uma variável,
-// sem remover a mesma da array.
+
 
