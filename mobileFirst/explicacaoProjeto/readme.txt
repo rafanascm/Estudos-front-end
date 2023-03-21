@@ -1,4 +1,4 @@
-Projeto de estudo realizado a parir do curso - HTML e CSS: responsividade com mobile-first- ALURA 
+Projeto de estudo realizado a partir do curso - HTML e CSS: responsividade com mobile-first- ALURA 
 
 -- O que é mobileFirst? --
 
