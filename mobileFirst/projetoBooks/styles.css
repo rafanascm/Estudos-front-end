@@ -2,11 +2,16 @@
 
 :root {
     --cor-de-fundo: #EBECEE;
-    --branco: #FFF
+    --branco: #FFF;
+    --laranja: #EB9B00;
+    --font-principal: "Poppins";
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 h1 {

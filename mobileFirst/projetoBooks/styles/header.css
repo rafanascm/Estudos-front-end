@@ -1,3 +1,4 @@
+/* Icone hamburguer criado */
 .mobile-menu div {
   width: 32px;
   height: 4px;
@@ -6,6 +7,7 @@
   transition: 0.3s;
 }
 
+/* Cabecalho onde sustenta os icones*/
 .cabecalho{
   background-color: var(--branco);
   display: flex;
@@ -13,45 +15,63 @@
   align-items: center;
 }
 
+/* Classe para determinar flex */
 .container{
   display: flex;
   align-items: center;
 }
 
-.container-imagem{
+/* icone de logo */
+.logo{
   padding: 0.8em;
 }
-
-.lista-menu-titulo{
-  font-size: 16px;
-  font-weight: 700;
-  color: #EB9B00;
+/* Titulo da lista */
+.lista-menu-titulo,
+.lista-menu-item{
+  padding: 1rem;
 }
 
+/* Itens da lista */
 .lista-menu-item a{
   text-decoration: none;
   color: black;
 }
 
+.lista-menu-titulo{
+  margin-top: 15px;
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.lista-menu-link{
+background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+/* ul - lista como um todo */
 .lista-menu{
-  position: absolute;
-  top: 10vh;
-  left: 0;
   background-color: var(--branco);
+  position: absolute;
+  top: 8vh;
+  left: 0;
   width: 250px;
   height: 344px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px;
+
   transform:translateX(-100%);
   transform: transform 0.3s ease-in;
 }
 
+/* Lista ul para tirarmos a lista da tela e definirmos o local de entrada*/
 .lista-menu.active{
   transform: translateX(0);
 }
 
+/* cada linha do icone */
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
 }
