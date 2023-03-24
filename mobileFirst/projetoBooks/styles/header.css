@@ -1,8 +1,9 @@
+
 /* Icone hamburguer criado */
 .mobile-menu div {
   width: 32px;
   height: 4px;
-  background: #002F52;
+  background: #523f00;
   margin: 6px;
   transition: 0.3s;
 }
@@ -51,7 +52,7 @@ background-clip: text;
 }
 
 /* ul - lista como um todo */
-.lista-menu{
+.lista-menu  {
   background-color: var(--branco);
   position: absolute;
   top: 8vh;
@@ -61,15 +62,16 @@ background-clip: text;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   transform:translateX(-100%);
   transform: transform 0.3s ease-in;
 }
+
 
 /* Lista ul para tirarmos a lista da tela e definirmos o local de entrada*/
 .lista-menu.active{
   transform: translateX(0);
 }
+
 
 /* cada linha do icone */
 .mobile-menu.active .line1 {
@@ -84,3 +86,32 @@ background-clip: text;
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+
+.container-titulo{
+  display: none;
+}
+
+
+
+
+
+/* Utilizar o min quando for do mobile para o desktop */
+@media screen and (min-width: 1024px) {
+  .mobile-menu{
+    display: none;
+  }
+
+.container-titulo, .container-negrito{
+  font-family: var(--font-secundaria);
+  font-size: 30px;
+
+}
+.container-titulo{
+  font-weight: 400;
+  display: block;
+}
+.container-negrito{
+  font-weight: 700;
+}
+
+}

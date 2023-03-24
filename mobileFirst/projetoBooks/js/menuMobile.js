@@ -8,7 +8,6 @@ class MenuMobile {
   
   }
 
-
   handleClick(){
     this.listaMenu.classList.toggle(this.activeClass)
     this.mobileMenu.classList.toggle(this.activeClass)
@@ -31,5 +30,5 @@ const menuMobile = new MenuMobile(
   ".lista-menu",
   ".lista-menu-item li",
 )
-
 menuMobile.init()
+
