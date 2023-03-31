@@ -47,6 +47,9 @@ padding:1em 0.5em
     padding: 1em;
 }
 
+.lista-rodapé{
+  display: none;
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -61,4 +64,36 @@ padding:1em 0.5em
   .search-email{
     width: 30%;
   }
+
+  .rodape{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .lista-rodapé{
+    display: block;
+  }
+
+  .lista-rodapé__item{
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+  
+  }
+
+  .lista-rodapé__link{
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+  }
+
+  .lista-rodapé__titulo{
+    font-size: 0.87rem;
+    color: var(--ciinza-claro);
+    text-transform: uppercase;
+  }
+  .grupo-alura{
+    font-size: 1.5rem;
+  }
+
 }
